@@ -1,0 +1,8 @@
+#Solicitar edad
+
+numero = int(input("Introduce la edad: "))
+
+if numero >= 18: 
+    print ("Bienvenido, puedes ingresar")
+elif numero <= 17:
+        print ("En este momento no puedes ingresar, aún eres un baby")
